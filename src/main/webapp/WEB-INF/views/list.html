@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Home</title>
+</head>
+<body>
+<h1>Listing People</h1>
+
+
+
+<table th:each="person : ${people}" th:id="${person.id}" >
+
+										<tr>
+											<td>
+
+<a th:href="@{'edit?id='+${person.id}}"><p th:text="${person.id + '-' + person.firstName + ' ' + person.lastName}">
+
+		</p>
+	</a>
+
+											</td>
+										 </tr>
+									</table>
+
+<a href="edit"> Add Person</a>
+</body>
+</html>

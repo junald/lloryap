@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Home</title>
+</head>
+<body>
+<h1>
+	Editing Person<p th:if = "${person==null}" th:text="${person.id + '-' + person.firstName + ' ' + person.lastName}"> </p>
+</h1>
+
+<form   method="post" style="padding:8px" >
+    ID - <p th:utext="${person.id}"> </p> <br/>
+    <p>
+        First Name<br/>
+        <input name="firstName" id="firstName" class="field" maxlength="50" th:value="${person.firstName}" />
+    </p>
+
+    <p>
+        Last Name<br/>
+        <input name="lastName" id="lastName" class="field" maxlength="50" th:value="${person.lastName}" />
+
+    </p>
+    <input type="submit" value="Save"/>
+</form>
+</body>
+</html>
