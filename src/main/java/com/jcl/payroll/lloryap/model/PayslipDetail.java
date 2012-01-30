@@ -7,10 +7,10 @@ public class PayslipDetail {
 	private String detailType; // Absent,
 	                           // Adjustment,Holiday,IncomeTax,Lates,Leave,OverTime,PagIbig,PhilHealth,SSS,UnderTime,WorkedHours,Others
 	private String description;
-	private boolean isTaxable;
-	private double amount;
-	private int rowNumber;
+	private Boolean isTaxable;
+	private Double amount;
+	private Integer rowNumber;
 
-	private boolean leftSide;
+	private transient Boolean leftSide;
 
 }
