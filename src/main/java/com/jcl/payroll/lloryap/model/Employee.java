@@ -31,13 +31,13 @@ public class Employee implements Serializable {
 	@Column(length = 50, unique = true, nullable = false)
 	private String idNumber;
 
-	@Column(length = 50, unique = true, nullable = false)
+	@Column(length = 50, nullable = false)
 	private String firstName;
 
-	@Column(length = 50, unique = true, nullable = false)
+	@Column(length = 50, nullable = false)
 	private String lastName;
 
-	@Column(length = 50, unique = true, nullable = false)
+	@Column(length = 50)
 	private String middleName;
 
 	@DateTimeFormat(pattern = "yyyy-MM-dd")
