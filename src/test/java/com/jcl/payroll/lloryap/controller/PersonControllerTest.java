@@ -1,5 +1,6 @@
 package com.jcl.payroll.lloryap.controller;
 
+import com.jcl.lloryap.controller.PersonController;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNull;
@@ -7,7 +8,7 @@ import static org.junit.Assert.assertTrue;
 
 import java.util.List;
 
-import com.jcl.payroll.lloryap.model.Person;
+import com.jcl.lloryap.model.Person;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

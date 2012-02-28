@@ -1,9 +1,10 @@
 package com.jcl.payroll.lloryap.dao;
 
+import com.jcl.lloryap.dao.PersonDao;
 import java.util.List;
 
 import com.jcl.payroll.lloryap.controller.DataInitializer;
-import com.jcl.payroll.lloryap.model.Person;
+import com.jcl.lloryap.model.Person;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

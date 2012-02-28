@@ -6,7 +6,7 @@ import java.util.List;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
-import com.jcl.payroll.lloryap.model.Person;
+import com.jcl.lloryap.model.Person;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 

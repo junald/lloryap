@@ -1,5 +1,6 @@
 package com.jcl.payroll.lloryap.controller;
 
+import com.jcl.lloryap.controller.HomeController;
 import junit.framework.Assert;
 
 import org.junit.Test;
