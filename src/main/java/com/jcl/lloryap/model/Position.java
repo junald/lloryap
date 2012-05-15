@@ -11,9 +11,7 @@ import javax.persistence.Id;
 @Entity
 public class Position implements Serializable {
 
-	/**
-     *
-     */
+
 	private static final long serialVersionUID = 1407845317954335309L;
 
 	@Id

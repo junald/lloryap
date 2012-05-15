@@ -45,9 +45,11 @@ public class Period implements Serializable {
 	private String status; // open, closed, cancel
 
 	@Column
+        @Temporal(TemporalType.DATE)
 	private Date created;
 
 	@Column
+        @Temporal(TemporalType.DATE)
 	private Date modify;
 
 	public Long getId() {

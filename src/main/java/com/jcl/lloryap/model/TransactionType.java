@@ -11,9 +11,7 @@ import javax.persistence.Id;
 @Entity
 public class TransactionType implements Serializable {
 
-	/**
-     *
-     */
+
 	private static final long serialVersionUID = 1659481402502553157L;
 
 	@Id
